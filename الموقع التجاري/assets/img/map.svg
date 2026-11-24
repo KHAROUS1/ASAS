@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img">
+  <title>خريطة توضيحية لموقع الرياض</title>
+  <defs>
+    <linearGradient id="mapbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1e8d8"/>
+      <stop offset="1" stop-color="#e3d4bc"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fbf7ee"/>
+      <stop offset="1" stop-color="#f3ebdd"/>
+    </linearGradient>
+    <filter id="pinShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#15161a" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="520" fill="url(#mapbg)"/>
+
+  <!-- blocks -->
+  <g fill="#dccdb5" opacity="0.7">
+    <rect x="40" y="40" width="120" height="90" rx="6"/>
+    <rect x="180" y="30" width="90" height="70" rx="6"/>
+    <rect x="300" y="48" width="150" height="80" rx="6"/>
+    <rect x="490" y="30" width="110" height="100" rx="6"/>
+    <rect x="630" y="46" width="120" height="84" rx="6"/>
+    <rect x="60" y="300" width="130" height="80" rx="6"/>
+    <rect x="220" y="320" width="100" height="90" rx="6"/>
+    <rect x="620" y="310" width="130" height="100" rx="6"/>
+    <rect x="500" y="400" width="100" height="70" rx="6"/>
+  </g>
+
+  <!-- park -->
+  <path d="M330 300 q50 -34 110 -8 q44 20 34 66 q-10 46 -72 44 q-58 -2 -72 -46 q-10 -34 0 -56 Z" fill="#cfc9a9" opacity="0.75"/>
+  <g fill="#b5b18d" opacity="0.8">
+    <circle cx="374" cy="348" r="13"/>
+    <circle cx="406" cy="330" r="9"/>
+    <circle cx="430" cy="362" r="12"/>
+    <circle cx="392" cy="380" r="8"/>
+  </g>
+
+  <!-- roads -->
+  <g stroke="url(#road)" fill="none">
+    <path d="M0 220 H800" stroke-width="34"/>
+    <path d="M0 434 H800" stroke-width="22"/>
+    <path d="M270 0 V520" stroke-width="26"/>
+    <path d="M560 0 V520" stroke-width="20"/>
+    <path d="M120 0 V520" stroke-width="14"/>
+    <path d="M690 0 V520" stroke-width="14"/>
+    <path d="M0 110 H800" stroke-width="12"/>
+    <path d="M0 500 H800" stroke-width="10"/>
+  </g>
+  <g stroke="#d8c6aa" fill="none" stroke-width="2" stroke-dasharray="10 12">
+    <path d="M0 220 H800"/>
+    <path d="M270 0 V520"/>
+    <path d="M560 0 V520"/>
+  </g>
+
+  <!-- ring road -->
+  <g fill="none" stroke="#fbf7ee" stroke-width="16">
+    <ellipse cx="470" cy="300" rx="280" ry="170"/>
+  </g>
+  <ellipse cx="470" cy="300" rx="280" ry="170" fill="none" stroke="#d8c6aa" stroke-width="1.5" stroke-dasharray="8 10"/>
+
+  <!-- river/wadi hint -->
+  <path d="M0 468 q120 -26 220 -6 q90 18 170 -8 q120 -40 230 -4 q90 26 180 6" fill="none" stroke="#c3d2c3" stroke-width="8" opacity="0.7"/>
+
+  <!-- pin -->
+  <g transform="translate(472 246)" filter="url(#pinShadow)">
+    <path d="M0 -54 C-30 -54 -52 -32 -52 -4 C-52 34 0 72 0 72 C0 72 52 34 52 -4 C52 -32 30 -54 0 -54 Z" fill="#17181c"/>
+    <path d="M0 -54 C-30 -54 -52 -32 -52 -4 C-52 34 0 72 0 72 C0 72 52 34 52 -4 C52 -32 30 -54 0 -54 Z" fill="none" stroke="#c9a468" stroke-width="2.5"/>
+    <circle cy="-8" r="20" fill="#c9a468"/>
+    <path d="M-7 1 L0 -15 L7 1 Z" fill="#17181c"/>
+    <path d="M-3 0 h6" stroke="#17181c" stroke-width="2.5"/>
+  </g>
+
+  <!-- compass -->
+  <g transform="translate(736 64)" fill="none" stroke="#a9864c" stroke-width="1.5" opacity="0.8">
+    <circle r="26"/>
+    <path d="M0 -18 L7 8 L0 4 L-7 8 Z" fill="#a9864c" stroke="none"/>
+    <path d="M0 -18 V-24 M0 18 V24 M-18 0 H-24 M18 0 H24"/>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="13" fill="#8d7c62" opacity="0.85">
+    <text x="52" y="208">طريق الملك فهد</text>
+    <text x="596" y="430">الرياض</text>
+  </g>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+  <title>دهانات ومعاجين تشطيب</title>
+  <defs>
+    <linearGradient id="pabg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4eee3"/>
+      <stop offset="1" stop-color="#e6d9c3"/>
+    </linearGradient>
+    <linearGradient id="bucket" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3c4047"/>
+      <stop offset="1" stop-color="#1c1e23"/>
+    </linearGradient>
+    <linearGradient id="bucket2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efe7d9"/>
+      <stop offset="1" stop-color="#cbbda5"/>
+    </linearGradient>
+    <linearGradient id="paintg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e3c894"/>
+      <stop offset="1" stop-color="#b18f53"/>
+    </linearGradient>
+    <linearGradient id="goldg4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a9864c"/>
+      <stop offset="0.5" stop-color="#e2c792"/>
+      <stop offset="1" stop-color="#a9864c"/>
+    </linearGradient>
+    <pattern id="dots7" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#15161a" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pabg)"/>
+  <circle cx="640" cy="148" r="192" fill="#ede2cf"/>
+  <path d="M0 468 Q210 432 420 466 T800 454 V600 H0 Z" fill="#e1d4be"/>
+  <rect width="800" height="600" fill="url(#dots7)"/>
+
+  <ellipse cx="400" cy="508" rx="288" ry="32" fill="#15161a" opacity="0.1"/>
+
+  <!-- back bucket -->
+  <g transform="translate(428 286)">
+    <path d="M0 18 Q0 0 16 0 H150 Q166 0 166 18 L152 200 Q150 216 134 216 H32 Q16 216 14 200 Z" fill="url(#bucket2)"/>
+    <ellipse cx="83" cy="2" rx="83" ry="16" fill="#f7f1e6" stroke="#c9bba2" stroke-width="2"/>
+    <ellipse cx="83" cy="2" rx="58" ry="10" fill="#e2d7c4"/>
+    <rect x="0" y="66" width="166" height="42" fill="url(#goldg4)"/>
+    <rect x="22" y="78" width="58" height="8" rx="4" fill="#fffaf0" opacity="0.8"/>
+    <rect x="22" y="92" width="34" height="6" rx="3" fill="#15161a" opacity="0.2"/>
+    <path d="M26 0 q57 40 114 0" fill="none" stroke="#3a3d44" stroke-width="4"/>
+  </g>
+
+  <!-- front bucket -->
+  <g transform="translate(196 328)">
+    <path d="M0 20 Q0 2 18 2 H170 Q188 2 188 20 L172 220 Q170 238 152 238 H36 Q18 238 16 220 Z" fill="url(#bucket)"/>
+    <ellipse cx="94" cy="4" rx="94" ry="18" fill="url(#goldg4)"/>
+    <ellipse cx="94" cy="4" rx="64" ry="11" fill="#23262b"/>
+    <ellipse cx="94" cy="4" rx="34" ry="6" fill="#b18f53"/>
+    <rect x="0" y="78" width="188" height="46" fill="#c9a468" opacity="0.95"/>
+    <text x="94" y="108" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#15161a" text-anchor="middle" opacity="0.75">ASAS</text>
+    <path d="M28 2 q66 46 132 0" fill="none" stroke="#6d727b" stroke-width="5"/>
+    <path d="M24 150 h140" stroke="#ffffff" stroke-opacity="0.12" stroke-width="3"/>
+    <!-- paint drip -->
+    <path d="M150 238 q4 30 -8 42 q-8 10 -16 2 q-8 -8 2 -20 q10 -12 10 -24 Z" fill="#c9a468"/>
+  </g>
+
+  <!-- open paint can -->
+  <g transform="translate(560 392)">
+    <path d="M0 12 Q0 0 12 0 H104 Q116 0 116 12 L106 128 Q105 140 94 140 H22 Q11 140 10 128 Z" fill="#f0e8da" stroke="#bcae96" stroke-width="2"/>
+    <ellipse cx="58" cy="2" rx="58" ry="12" fill="#faf5eb" stroke="#c9bba2" stroke-width="2"/>
+    <ellipse cx="58" cy="2" rx="44" ry="8" fill="url(#paintg)"/>
+    <path d="M14 4 q44 18 88 0" fill="none" stroke="#8b9199" stroke-width="3"/>
+    <rect x="0" y="52" width="116" height="26" fill="#c9a468" opacity="0.8"/>
+    <path d="M104 2 q14 -40 -6 -56" fill="none" stroke="#c9a468" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- color swatches -->
+  <g transform="translate(96 156) rotate(-10)">
+    <rect width="86" height="110" rx="6" fill="#f8f2e6" stroke="#d8cbb5" stroke-width="2"/>
+    <rect x="10" y="10" width="66" height="66" rx="3" fill="#c9a468"/>
+    <rect x="20" y="86" width="46" height="6" rx="3" fill="#15161a" opacity="0.25"/>
+  </g>
+  <g transform="translate(560 100) rotate(12)">
+    <rect width="72" height="94" rx="6" fill="#f8f2e6" stroke="#d8cbb5" stroke-width="2"/>
+    <rect x="9" y="9" width="54" height="54" rx="3" fill="#2b2e34"/>
+    <rect x="17" y="72" width="38" height="5" rx="2.5" fill="#15161a" opacity="0.25"/>
+  </g>
+
+  <g fill="#b08c4f" opacity="0.55">
+    <circle cx="124" cy="452" r="2.5"/>
+    <circle cx="700" cy="330" r="3"/>
+    <circle cx="734" cy="292" r="2"/>
+  </g>
+</svg>

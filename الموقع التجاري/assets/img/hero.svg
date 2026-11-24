@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 760" role="img">
+  <title>تكوين معماري يعبّر عن مواد البناء</title>
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f0e5"/>
+      <stop offset="1" stop-color="#e0d2ba"/>
+    </linearGradient>
+    <linearGradient id="arch" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b2e34"/>
+      <stop offset="1" stop-color="#141519"/>
+    </linearGradient>
+    <linearGradient id="goldh" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e3c894"/>
+      <stop offset="0.5" stop-color="#c9a468"/>
+      <stop offset="1" stop-color="#a9864c"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8d0a2"/>
+      <stop offset="1" stop-color="#c9a468"/>
+    </linearGradient>
+    <pattern id="hdots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#15161a" opacity="0.08"/>
+    </pattern>
+    <pattern id="hgrid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0 H0 V44" fill="none" stroke="#15161a" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="880" height="760" fill="url(#hbg)"/>
+  <rect width="880" height="760" fill="url(#hgrid)"/>
+  <rect width="880" height="760" fill="url(#hdots)"/>
+
+  <!-- sun -->
+  <circle cx="642" cy="196" r="132" fill="url(#sun)" opacity="0.92"/>
+  <circle cx="642" cy="196" r="132" fill="none" stroke="#a9864c" stroke-opacity="0.35" stroke-width="1.5"/>
+  <circle cx="642" cy="196" r="166" fill="none" stroke="#a9864c" stroke-opacity="0.25" stroke-width="1.5"/>
+
+  <!-- arch -->
+  <path d="M150 640 V352 a150 150 0 0 1 300 0 V640 Z" fill="url(#arch)"/>
+  <path d="M178 640 V356 a122 122 0 0 1 244 0 V640 Z" fill="none" stroke="url(#goldh)" stroke-width="3" opacity="0.85"/>
+  <path d="M150 640 V352 a150 150 0 0 1 300 0 V640" fill="none" stroke="#15161a" stroke-width="1"/>
+
+  <!-- blocks stack -->
+  <g>
+    <rect x="500" y="552" width="128" height="88" rx="4" fill="#cdbfa7"/>
+    <rect x="638" y="552" width="128" height="88" rx="4" fill="#b9a98f"/>
+    <rect x="500" y="464" width="128" height="80" rx="4" fill="#ddcfb8"/>
+    <rect x="638" y="464" width="128" height="80" rx="4" fill="#c8b99f"/>
+    <rect x="569" y="384" width="128" height="72" rx="4" fill="#c9a468"/>
+    <rect x="500" y="552" width="128" height="88" rx="4" fill="none" stroke="#15161a" stroke-opacity="0.12"/>
+    <rect x="638" y="552" width="128" height="88" rx="4" fill="none" stroke="#15161a" stroke-opacity="0.12"/>
+    <rect x="500" y="464" width="128" height="80" rx="4" fill="none" stroke="#15161a" stroke-opacity="0.12"/>
+    <rect x="638" y="464" width="128" height="80" rx="4" fill="none" stroke="#15161a" stroke-opacity="0.12"/>
+    <rect x="569" y="384" width="128" height="72" rx="4" fill="none" stroke="#ffffff" stroke-opacity="0.35"/>
+    <path d="M584 408 h98 M584 426 h64" stroke="#15161a" stroke-opacity="0.25" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- thin gold lines -->
+  <path d="M40 706 H840" stroke="#a9864c" stroke-opacity="0.5" stroke-width="1.5"/>
+  <path d="M52 84 V300" stroke="#a9864c" stroke-opacity="0.45" stroke-width="1.5"/>
+  <circle cx="52" cy="84" r="5" fill="#c9a468"/>
+  <path d="M792 400 v-90 h-56" fill="none" stroke="#a9864c" stroke-opacity="0.55" stroke-width="1.5"/>
+  <circle cx="792" cy="400" r="4.5" fill="#c9a468"/>
+
+  <!-- rebar detail -->
+  <g transform="translate(98 116) rotate(-18)">
+    <rect width="266" height="14" rx="7" fill="#3a3d44"/>
+    <rect y="24" width="266" height="14" rx="7" fill="#2c2f35"/>
+    <rect y="48" width="266" height="14" rx="7" fill="#3a3d44"/>
+    <g stroke="#7f858e" stroke-opacity="0.5" stroke-width="2">
+      <path d="M40 0 v14 M80 0 v14 M120 0 v14 M160 0 v14 M200 0 v14 M240 0 v14"/>
+      <path d="M40 24 v14 M80 24 v14 M120 24 v14 M160 24 v14 M200 24 v14 M240 24 v14"/>
+      <path d="M40 48 v14 M80 48 v14 M120 48 v14 M160 48 v14 M200 48 v14 M240 48 v14"/>
+    </g>
+  </g>
+
+  <!-- small ASAS monogram -->
+  <g transform="translate(772 664)" opacity="0.9">
+    <circle r="34" fill="none" stroke="#a9864c" stroke-width="1.5"/>
+    <path d="M-11 12 L0 -14 L11 12 Z" fill="none" stroke="#a9864c" stroke-width="2.5"/>
+    <path d="M-6 4 h12" stroke="#a9864c" stroke-width="2.5"/>
+  </g>
+</svg>

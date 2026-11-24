@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+  <title>حزم حديد تسليح</title>
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3ecdf"/>
+      <stop offset="1" stop-color="#e4d7c1"/>
+    </linearGradient>
+    <linearGradient id="rod" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b6068"/>
+      <stop offset="0.35" stop-color="#34373d"/>
+      <stop offset="1" stop-color="#22252a"/>
+    </linearGradient>
+    <linearGradient id="goldg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a9864c"/>
+      <stop offset="0.5" stop-color="#dcc08a"/>
+      <stop offset="1" stop-color="#a9864c"/>
+    </linearGradient>
+    <pattern id="dots2" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#15161a" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#sbg)"/>
+  <circle cx="160" cy="140" r="180" fill="#ece0cc"/>
+  <path d="M0 492 Q200 452 400 486 T800 470 V600 H0 Z" fill="#e2d4bd"/>
+  <rect width="800" height="600" fill="url(#dots2)"/>
+
+  <ellipse cx="398" cy="500" rx="300" ry="34" fill="#15161a" opacity="0.1"/>
+
+  <g transform="rotate(-20 400 300)">
+    <g>
+      <rect x="96" y="214" width="608" height="30" rx="15" fill="url(#rod)"/>
+      <rect x="96" y="220" width="608" height="5" rx="2.5" fill="#ffffff" opacity="0.18"/>
+      <rect x="112" y="214" width="16" height="30" fill="url(#goldg)" opacity="0.9"/>
+      <rect x="672" y="214" width="16" height="30" fill="url(#goldg)" opacity="0.9"/>
+    </g>
+    <g>
+      <rect x="96" y="258" width="608" height="30" rx="15" fill="url(#rod)"/>
+      <rect x="96" y="264" width="608" height="5" rx="2.5" fill="#ffffff" opacity="0.18"/>
+      <rect x="112" y="258" width="16" height="30" fill="url(#goldg)" opacity="0.9"/>
+      <rect x="672" y="258" width="16" height="30" fill="url(#goldg)" opacity="0.9"/>
+    </g>
+    <g>
+      <rect x="96" y="302" width="608" height="30" rx="15" fill="url(#rod)"/>
+      <rect x="96" y="308" width="608" height="5" rx="2.5" fill="#ffffff" opacity="0.18"/>
+      <rect x="112" y="302" width="16" height="30" fill="url(#goldg)" opacity="0.9"/>
+      <rect x="672" y="302" width="16" height="30" fill="url(#goldg)" opacity="0.9"/>
+    </g>
+    <g>
+      <rect x="96" y="346" width="608" height="30" rx="15" fill="url(#rod)"/>
+      <rect x="96" y="352" width="608" height="5" rx="2.5" fill="#ffffff" opacity="0.18"/>
+      <rect x="112" y="346" width="16" height="30" fill="url(#goldg)" opacity="0.9"/>
+      <rect x="672" y="346" width="16" height="30" fill="url(#goldg)" opacity="0.9"/>
+    </g>
+    <g>
+      <rect x="96" y="390" width="608" height="30" rx="15" fill="url(#rod)"/>
+      <rect x="96" y="396" width="608" height="5" rx="2.5" fill="#ffffff" opacity="0.18"/>
+      <rect x="112" y="390" width="16" height="30" fill="url(#goldg)" opacity="0.9"/>
+      <rect x="672" y="390" width="16" height="30" fill="url(#goldg)" opacity="0.9"/>
+    </g>
+
+    <!-- ribs -->
+    <g stroke="#80868f" stroke-opacity="0.55" stroke-width="3">
+      <path d="M200 214 v30 M260 214 v30 M320 214 v30 M380 214 v30 M440 214 v30 M500 214 v30 M560 214 v30"/>
+      <path d="M200 258 v30 M260 258 v30 M320 258 v30 M380 258 v30 M440 258 v30 M500 258 v30 M560 258 v30"/>
+      <path d="M200 302 v30 M260 302 v30 M320 302 v30 M380 302 v30 M440 302 v30 M500 302 v30 M560 302 v30"/>
+      <path d="M200 346 v30 M260 346 v30 M320 346 v30 M380 346 v30 M440 346 v30 M500 346 v30 M560 346 v30"/>
+      <path d="M200 390 v30 M260 390 v30 M320 390 v30 M380 390 v30 M440 390 v30 M500 390 v30 M560 390 v30"/>
+    </g>
+
+    <!-- binding wires -->
+    <g fill="none" stroke="url(#goldg)" stroke-width="9" stroke-linecap="round">
+      <path d="M330 196 q-34 32 -14 62 q20 30 56 24"/>
+      <path d="M470 196 q34 32 14 62 q-20 30 -56 24"/>
+    </g>
+  </g>
+
+  <g fill="#b08c4f" opacity="0.55">
+    <circle cx="642" cy="472" r="3"/>
+    <circle cx="688" cy="438" r="2"/>
+    <circle cx="126" cy="468" r="2.5"/>
+  </g>
+</svg>

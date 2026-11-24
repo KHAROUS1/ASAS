@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img">
+  <title>مستودع مواد بناء منظم</title>
+  <defs>
+    <linearGradient id="wbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3d44"/>
+      <stop offset="0.55" stop-color="#26282e"/>
+      <stop offset="1" stop-color="#17181c"/>
+    </linearGradient>
+    <linearGradient id="light" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6ead3" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f6ead3" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#35373d"/>
+      <stop offset="1" stop-color="#1d1f23"/>
+    </linearGradient>
+    <linearGradient id="goldw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a9864c"/>
+      <stop offset="0.5" stop-color="#e0c48f"/>
+      <stop offset="1" stop-color="#a9864c"/>
+    </linearGradient>
+    <linearGradient id="bagw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8ccb6"/>
+      <stop offset="1" stop-color="#ab9c82"/>
+    </linearGradient>
+    <pattern id="wdots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="640" fill="url(#wbg)"/>
+  <rect width="800" height="640" fill="url(#wdots)"/>
+
+  <!-- light beams -->
+  <polygon points="120,0 250,0 430,640 240,640" fill="url(#light)"/>
+  <polygon points="430,0 520,0 640,640 500,640" fill="url(#light)" opacity="0.7"/>
+
+  <!-- ceiling beams -->
+  <g stroke="#4a4e56" stroke-width="8" opacity="0.7">
+    <path d="M0 96 H800"/>
+    <path d="M0 140 H800"/>
+  </g>
+  <g fill="#c9a468" opacity="0.8">
+    <rect x="150" y="96" width="70" height="10" rx="5"/>
+    <rect x="380" y="96" width="70" height="10" rx="5"/>
+    <rect x="610" y="96" width="70" height="10" rx="5"/>
+  </g>
+
+  <!-- floor -->
+  <path d="M0 520 H800 V640 H0 Z" fill="url(#floor)"/>
+  <path d="M0 520 H800" stroke="#c9a468" stroke-opacity="0.35" stroke-width="2"/>
+
+  <!-- back wall sign -->
+  <g transform="translate(400 168)">
+    <rect x="-120" y="-46" width="240" height="92" rx="8" fill="#1b1c21" stroke="#c9a468" stroke-opacity="0.5"/>
+    <path d="M-34 16 L-14 -22 L6 16 Z" fill="none" stroke="#c9a468" stroke-width="3"/>
+    <text x="18" y="12" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#f6f0e5" text-anchor="middle" letter-spacing="6">ASAS</text>
+    <path d="M-28 30 h104" stroke="#c9a468" stroke-width="2" opacity="0.6"/>
+  </g>
+
+  <!-- rack left -->
+  <g>
+    <rect x="72" y="248" width="12" height="272" fill="#5c6069"/>
+    <rect x="300" y="248" width="12" height="272" fill="#5c6069"/>
+    <rect x="72" y="248" width="240" height="10" fill="#757a84"/>
+    <rect x="72" y="370" width="240" height="10" fill="#757a84"/>
+    <rect x="72" y="478" width="240" height="10" fill="#757a84"/>
+    <!-- rolls -->
+    <g>
+      <circle cx="150" cy="344" r="34" fill="#cbbda4"/>
+      <circle cx="150" cy="344" r="19" fill="none" stroke="#8d8069" stroke-width="3"/>
+      <circle cx="150" cy="344" r="6" fill="#2a2c31"/>
+      <circle cx="228" cy="344" r="34" fill="#ddcfb7"/>
+      <circle cx="228" cy="344" r="19" fill="none" stroke="#8d8069" stroke-width="3"/>
+      <circle cx="228" cy="344" r="6" fill="#2a2c31"/>
+    </g>
+    <!-- bags -->
+    <g>
+      <rect x="94" y="410" width="96" height="58" rx="8" fill="url(#bagw)"/>
+      <rect x="94" y="428" width="96" height="10" fill="url(#goldw)"/>
+      <rect x="200" y="418" width="92" height="52" rx="8" fill="#c7b99f"/>
+      <rect x="200" y="434" width="92" height="9" fill="url(#goldw)"/>
+    </g>
+    <!-- pipes -->
+    <g>
+      <rect x="86" y="494" width="100" height="18" rx="9" fill="#d8cdb8"/>
+      <rect x="86" y="518" width="100" height="18" rx="9" fill="#c4b79f"/>
+      <rect x="196" y="504" width="104" height="18" rx="9" fill="#e3d8c4"/>
+    </g>
+  </g>
+
+  <!-- rack right -->
+  <g>
+    <rect x="500" y="248" width="12" height="272" fill="#5c6069"/>
+    <rect x="718" y="248" width="12" height="272" fill="#5c6069"/>
+    <rect x="500" y="248" width="230" height="10" fill="#757a84"/>
+    <rect x="500" y="370" width="230" height="10" fill="#757a84"/>
+    <rect x="500" y="478" width="230" height="10" fill="#757a84"/>
+    <!-- slab -->
+    <g transform="translate(520 282)">
+      <rect width="72" height="84" rx="3" fill="#e7dfd1"/>
+      <path d="M12 10 q26 18 12 38 q-12 18 16 28" fill="none" stroke="#9b9181" stroke-opacity="0.6" stroke-width="2"/>
+      <rect x="86" y="6" width="72" height="84" rx="3" fill="#d5ccbe"/>
+      <path d="M98 12 q24 22 10 40 q-10 16 20 26" fill="none" stroke="#9b9181" stroke-opacity="0.45" stroke-width="2"/>
+    </g>
+    <!-- plywood -->
+    <g transform="translate(508 390) rotate(-2 100 40)">
+      <rect width="214" height="82" rx="4" fill="#c2a57c"/>
+      <path d="M18 22 q70 14 128 -2 q40 -10 56 4" fill="none" stroke="#8f7248" stroke-opacity="0.55" stroke-width="2"/>
+      <path d="M20 52 q84 -12 160 6" fill="none" stroke="#8f7248" stroke-opacity="0.4" stroke-width="2"/>
+    </g>
+    <!-- crates -->
+    <g>
+      <rect x="516" y="500" width="94" height="60" rx="4" fill="#8f7248"/>
+      <rect x="516" y="500" width="94" height="60" rx="4" fill="none" stroke="#6e5735" stroke-width="3"/>
+      <path d="M516 512 H610 M516 548 H610" stroke="#6e5735" stroke-width="2" opacity="0.7"/>
+      <rect x="626" y="494" width="88" height="66" rx="4" fill="#b08e5c"/>
+      <path d="M626 510 H714" stroke="#7d5f38" stroke-width="2" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- fork / palette front -->
+  <g transform="translate(346 500)">
+    <rect width="130" height="18" rx="6" fill="#c9a468"/>
+    <rect y="24" width="130" height="10" rx="4" fill="#a9864c"/>
+    <rect x="20" y="-38" width="90" height="42" rx="5" fill="#d9cdb6"/>
+    <rect x="20" y="-28" width="90" height="9" fill="#b08c4f" opacity="0.75"/>
+  </g>
+
+  <!-- gold guide line -->
+  <path d="M0 606 H800" stroke="#c9a468" stroke-opacity="0.2" stroke-width="1.5"/>
+</svg>

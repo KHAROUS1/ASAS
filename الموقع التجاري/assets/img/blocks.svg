@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+  <title>بلوك خرساني وطوب معزول</title>
+  <defs>
+    <linearGradient id="bbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4eee3"/>
+      <stop offset="1" stop-color="#e6dac6"/>
+    </linearGradient>
+    <linearGradient id="topface" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#dfd5c4"/>
+      <stop offset="1" stop-color="#cfc2ac"/>
+    </linearGradient>
+    <linearGradient id="frontface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c6b9a4"/>
+      <stop offset="1" stop-color="#ad9e86"/>
+    </linearGradient>
+    <linearGradient id="sideface" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b3a48c"/>
+      <stop offset="1" stop-color="#998a71"/>
+    </linearGradient>
+    <pattern id="dots3" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#15161a" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bbg)"/>
+  <circle cx="640" cy="150" r="200" fill="#ede2cf"/>
+  <path d="M0 470 Q220 436 420 468 T800 458 V600 H0 Z" fill="#e2d5bf"/>
+  <rect width="800" height="600" fill="url(#dots3)"/>
+
+  <ellipse cx="400" cy="512" rx="290" ry="32" fill="#15161a" opacity="0.09"/>
+
+  <g>
+    <!-- back left block -->
+    <g transform="translate(170 352)">
+      <polygon points="0,60 120,20 250,58 130,98" fill="url(#topface)"/>
+      <polygon points="0,60 130,98 130,190 0,152" fill="url(#frontface)"/>
+      <polygon points="130,98 250,58 250,150 130,190" fill="url(#sideface)"/>
+      <polygon points="28,72 96,92 96,112 28,92" fill="#8d7f68" opacity="0.5"/>
+      <polygon points="152,104 220,84 220,104 152,124" fill="#8d7f68" opacity="0.5"/>
+      <polygon points="130,98 250,58 250,150 130,190" fill="none" stroke="#c9a468" stroke-opacity="0.45" stroke-width="2"/>
+    </g>
+
+    <!-- back right block -->
+    <g transform="translate(404 350)">
+      <polygon points="0,58 118,20 246,56 128,94" fill="url(#topface)"/>
+      <polygon points="0,58 128,94 128,184 0,148" fill="url(#frontface)"/>
+      <polygon points="128,94 246,56 246,146 128,184" fill="url(#sideface)"/>
+      <polygon points="26,70 94,90 94,110 26,90" fill="#8d7f68" opacity="0.5"/>
+      <polygon points="150,100 216,82 216,102 150,120" fill="#8d7f68" opacity="0.5"/>
+      <polygon points="128,94 246,56 246,146 128,184" fill="none" stroke="#c9a468" stroke-opacity="0.45" stroke-width="2"/>
+    </g>
+
+    <!-- top block -->
+    <g transform="translate(296 226)">
+      <polygon points="0,58 118,20 246,56 128,94" fill="#e7ddcb"/>
+      <polygon points="0,58 128,94 128,184 0,148" fill="url(#frontface)"/>
+      <polygon points="128,94 246,56 246,146 128,184" fill="url(#sideface)"/>
+      <polygon points="26,70 94,90 94,110 26,90" fill="#8d7f68" opacity="0.45"/>
+      <polygon points="150,100 216,82 216,102 150,120" fill="#8d7f68" opacity="0.45"/>
+      <polygon points="128,94 246,56 246,146 128,184" fill="none" stroke="#c9a468" stroke-opacity="0.5" stroke-width="2"/>
+      <polygon points="0,58 120,20 250,58 130,98" fill="none" stroke="#f6f0e6" stroke-opacity="0.5" stroke-width="2"/>
+    </g>
+  </g>
+
+  <g fill="#b08c4f" opacity="0.55">
+    <circle cx="640" cy="386" r="3"/>
+    <circle cx="676" cy="356" r="2"/>
+    <circle cx="122" cy="330" r="2"/>
+  </g>
+</svg>

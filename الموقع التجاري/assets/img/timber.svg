@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+  <title>أخشاب وألواح فينير</title>
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4eee3"/>
+      <stop offset="1" stop-color="#e5d8c1"/>
+    </linearGradient>
+    <linearGradient id="ply" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dfc9a6"/>
+      <stop offset="1" stop-color="#c2a57c"/>
+    </linearGradient>
+    <linearGradient id="ply2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eed9b8"/>
+      <stop offset="1" stop-color="#d3b88f"/>
+    </linearGradient>
+    <linearGradient id="plank" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c8a878"/>
+      <stop offset="0.5" stop-color="#b08e5c"/>
+      <stop offset="1" stop-color="#967748"/>
+    </linearGradient>
+    <linearGradient id="goldg5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a9864c"/>
+      <stop offset="0.5" stop-color="#e2c792"/>
+      <stop offset="1" stop-color="#a9864c"/>
+    </linearGradient>
+    <pattern id="dots8" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#15161a" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#tbg)"/>
+  <circle cx="636" cy="150" r="192" fill="#ede2cf"/>
+  <path d="M0 470 Q210 434 420 468 T800 456 V600 H0 Z" fill="#e1d4be"/>
+  <rect width="800" height="600" fill="url(#dots8)"/>
+
+  <ellipse cx="400" cy="512" rx="292" ry="32" fill="#15161a" opacity="0.1"/>
+
+  <!-- plywood sheets leaning -->
+  <g transform="translate(206 148) rotate(-7 160 180)">
+    <rect width="300" height="360" rx="4" fill="#b39366"/>
+    <rect x="-22" y="6" width="300" height="360" rx="4" fill="url(#ply)"/>
+    <rect x="-44" y="12" width="300" height="360" rx="4" fill="url(#ply2)"/>
+    <rect x="-44" y="12" width="300" height="360" rx="4" fill="none" stroke="#a6865a" stroke-width="2"/>
+    <path d="M-20 90 q90 -24 186 6 q40 12 68 -4" fill="none" stroke="#a6865a" stroke-opacity="0.5" stroke-width="2"/>
+    <path d="M-16 170 q72 18 132 -6 q52 -20 118 6" fill="none" stroke="#a6865a" stroke-opacity="0.35" stroke-width="2"/>
+    <rect x="-44" y="12" width="300" height="26" fill="url(#goldg5)" opacity="0.75"/>
+  </g>
+
+  <!-- planks front -->
+  <g transform="translate(400 386) rotate(-3 120 40)">
+    <rect width="340" height="74" rx="8" fill="url(#plank)"/>
+    <rect y="10" width="340" height="12" fill="#ffffff" opacity="0.1"/>
+    <path d="M18 30 q80 -14 150 2 q60 14 154 -4" fill="none" stroke="#7d5f38" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M26 54 q90 12 168 -4 q60 -12 126 4" fill="none" stroke="#7d5f38" stroke-opacity="0.4" stroke-width="2"/>
+    <ellipse cx="112" cy="38" rx="13" ry="6" fill="#7d5f38" opacity="0.5"/>
+    <ellipse cx="266" cy="46" rx="9" ry="4" fill="#7d5f38" opacity="0.4"/>
+  </g>
+  <g transform="translate(432 470) rotate(2 110 30)">
+    <rect width="310" height="62" rx="7" fill="#bd9b6b"/>
+    <path d="M20 24 q70 -12 134 2 q58 12 136 -6" fill="none" stroke="#7d5f38" stroke-opacity="0.45" stroke-width="2"/>
+    <path d="M34 46 q84 10 156 -4" fill="none" stroke="#7d5f38" stroke-opacity="0.32" stroke-width="2"/>
+    <ellipse cx="238" cy="24" rx="10" ry="5" fill="#7d5f38" opacity="0.45"/>
+  </g>
+
+  <!-- wood dust -->
+  <g fill="#b08c4f" opacity="0.55">
+    <circle cx="660" cy="420" r="3"/>
+    <circle cx="696" cy="390" r="2"/>
+    <circle cx="128" cy="360" r="2.5"/>
+  </g>
+</svg>

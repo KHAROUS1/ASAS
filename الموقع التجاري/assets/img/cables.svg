@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+  <title>لفات كابلات وأسلاك كهربائية</title>
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4eee3"/>
+      <stop offset="1" stop-color="#e5d8c2"/>
+    </linearGradient>
+    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4a4e56"/>
+      <stop offset="0.5" stop-color="#26292f"/>
+      <stop offset="1" stop-color="#3a3e45"/>
+    </linearGradient>
+    <linearGradient id="copper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e3c894"/>
+      <stop offset="0.5" stop-color="#b98d51"/>
+      <stop offset="1" stop-color="#8d6532"/>
+    </linearGradient>
+    <linearGradient id="goldc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a9864c"/>
+      <stop offset="0.5" stop-color="#e0c48f"/>
+      <stop offset="1" stop-color="#a9864c"/>
+    </linearGradient>
+    <pattern id="dots9" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#15161a" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#cbg)"/>
+  <circle cx="636" cy="140" r="190" fill="#ede2cf"/>
+  <path d="M0 466 Q210 430 420 464 T800 452 V600 H0 Z" fill="#e1d4be"/>
+  <rect width="800" height="600" fill="url(#dots9)"/>
+
+  <ellipse cx="400" cy="502" rx="286" ry="34" fill="#15161a" opacity="0.1"/>
+
+  <!-- back coil -->
+  <g transform="translate(452 286) rotate(-14)">
+    <ellipse rx="150" ry="126" fill="#e9dfce" opacity="0.7"/>
+    <g fill="none" stroke="url(#wire)" stroke-width="20">
+      <circle r="118"/>
+      <circle r="92"/>
+      <circle r="66"/>
+    </g>
+    <g fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="4">
+      <circle r="126"/>
+      <circle r="100"/>
+      <circle r="74"/>
+    </g>
+    <ellipse rx="38" ry="32" fill="#d9cdb8"/>
+    <ellipse rx="38" ry="32" fill="none" stroke="#b3a58c" stroke-width="2"/>
+    <path d="M-118 0 h-46" stroke="url(#wire)" stroke-width="20" stroke-linecap="round"/>
+    <path d="M-164 0 q-46 26 -20 62 q24 32 78 10" fill="none" stroke="url(#wire)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M-164 0 q-46 26 -20 62 q24 32 78 10" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="3" stroke-linecap="round"/>
+    <g transform="translate(118 0)">
+      <rect x="0" y="-10" width="56" height="20" rx="10" fill="url(#copper)"/>
+      <circle cx="164" cy="0" r="9" fill="#8d6532"/>
+    </g>
+    <g fill="none" stroke="url(#goldc)" stroke-width="7">
+      <path d="M-44 -122 q44 -12 88 0"/>
+    </g>
+  </g>
+
+  <!-- front coil -->
+  <g transform="translate(264 400) rotate(8)">
+    <ellipse rx="118" ry="98" fill="#d9cdb8" opacity="0.5"/>
+    <g fill="none" stroke="url(#wire)" stroke-width="18">
+      <circle r="92"/>
+      <circle r="70"/>
+      <circle r="48"/>
+    </g>
+    <g fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="3.5">
+      <circle r="100"/>
+      <circle r="78"/>
+      <circle r="56"/>
+    </g>
+    <ellipse rx="28" ry="24" fill="#ece2d1"/>
+    <ellipse rx="28" ry="24" fill="none" stroke="#b3a58c" stroke-width="2"/>
+    <g transform="translate(0 92)">
+      <rect x="-8" y="0" width="16" height="28" fill="#b98d51"/>
+      <rect x="-8" y="20" width="16" height="8" fill="#8d6532"/>
+    </g>
+    <g fill="none" stroke="url(#goldc)" stroke-width="6">
+      <path d="M-30 -98 q30 -8 60 0"/>
+    </g>
+  </g>
+
+  <!-- cable cross section -->
+  <g transform="translate(632 424)">
+    <circle r="46" fill="#26292f"/>
+    <circle r="34" fill="url(#copper)"/>
+    <g fill="none" stroke="#6f4f24" stroke-opacity="0.5" stroke-width="2">
+      <circle r="24"/>
+      <circle r="14"/>
+      <circle r="5"/>
+    </g>
+    <g fill="#8d6532" opacity="0.4">
+      <circle cx="18" cy="-10" r="2"/>
+      <circle cx="-12" cy="16" r="2"/>
+      <circle cx="6" cy="20" r="2"/>
+    </g>
+  </g>
+
+  <g fill="#b08c4f" opacity="0.55">
+    <circle cx="660" cy="238" r="3"/>
+    <circle cx="696" cy="272" r="2"/>
+    <circle cx="110" cy="300" r="2.5"/>
+  </g>
+</svg>

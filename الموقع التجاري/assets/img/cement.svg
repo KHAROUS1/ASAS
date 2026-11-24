@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+  <title>أكياس أسمنت بورتلاندي</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4eee3"/>
+      <stop offset="1" stop-color="#e6dac5"/>
+    </linearGradient>
+    <linearGradient id="bagA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ded3bf"/>
+      <stop offset="1" stop-color="#c3b49a"/>
+    </linearGradient>
+    <linearGradient id="bagB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6dcc9"/>
+      <stop offset="1" stop-color="#cbbda4"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a9864c"/>
+      <stop offset="0.5" stop-color="#d9bc84"/>
+      <stop offset="1" stop-color="#b08c4f"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#15161a" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="628" cy="128" r="198" fill="#eee3d0"/>
+  <circle cx="628" cy="128" r="198" fill="none" stroke="#c9a468" stroke-opacity="0.35" stroke-width="1.5"/>
+  <path d="M0 466 Q190 424 390 462 T800 450 V600 H0 Z" fill="#e2d5c0"/>
+  <rect width="800" height="600" fill="url(#dots)"/>
+
+  <ellipse cx="392" cy="508" rx="286" ry="36" fill="#15161a" opacity="0.09"/>
+
+  <!-- bottom bags -->
+  <g transform="translate(126 356) rotate(-2 125 65)">
+    <rect x="0" y="0" width="252" height="132" rx="15" fill="url(#bagA)"/>
+    <path d="M14 12 H238 L252 2 L0 2 Z" fill="#b3a487"/>
+    <rect x="0" y="34" width="252" height="17" fill="url(#gold)" opacity="0.94"/>
+    <rect x="24" y="70" width="104" height="10" rx="5" fill="#f7f1e6" opacity="0.8"/>
+    <rect x="24" y="92" width="70" height="8" rx="4" fill="#15161a" opacity="0.18"/>
+    <circle cx="206" cy="86" r="23" fill="none" stroke="#f7f1e6" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M196 86 h20 M206 76 v20" stroke="#f7f1e6" stroke-opacity="0.55" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(402 364) rotate(2 125 65)">
+    <rect x="0" y="0" width="252" height="130" rx="15" fill="url(#bagB)"/>
+    <path d="M14 12 H238 L252 2 L0 2 Z" fill="#bdae93"/>
+    <rect x="0" y="32" width="252" height="17" fill="url(#gold)" opacity="0.94"/>
+    <rect x="24" y="68" width="112" height="10" rx="5" fill="#f7f1e6" opacity="0.8"/>
+    <rect x="24" y="90" width="64" height="8" rx="4" fill="#15161a" opacity="0.18"/>
+    <circle cx="206" cy="84" r="23" fill="none" stroke="#f7f1e6" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M196 84 h20 M206 74 v20" stroke="#f7f1e6" stroke-opacity="0.55" stroke-width="2"/>
+  </g>
+
+  <!-- top bag -->
+  <g transform="translate(258 226) rotate(-1 130 66)">
+    <rect x="0" y="0" width="268" height="136" rx="16" fill="url(#bagB)"/>
+    <path d="M16 12 H252 L268 2 L0 2 Z" fill="#c4b599"/>
+    <rect x="0" y="38" width="268" height="18" fill="url(#gold)"/>
+    <rect x="26" y="76" width="118" height="11" rx="5" fill="#f9f3e9" opacity="0.85"/>
+    <rect x="26" y="99" width="76" height="8" rx="4" fill="#15161a" opacity="0.2"/>
+    <g transform="translate(212 84)">
+      <circle r="25" fill="none" stroke="#f9f3e9" stroke-opacity="0.6" stroke-width="2"/>
+      <path d="M-9 8 L0 -10 L9 8 Z" fill="none" stroke="#f9f3e9" stroke-opacity="0.7" stroke-width="2"/>
+      <path d="M-4 8 h8" stroke="#f9f3e9" stroke-opacity="0.7" stroke-width="2"/>
+    </g>
+    <path d="M26 48 h90" stroke="#15161a" stroke-opacity="0.1" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- dust specks -->
+  <g fill="#b08c4f" opacity="0.5">
+    <circle cx="132" cy="286" r="2.5"/>
+    <circle cx="618" cy="392" r="3"/>
+    <circle cx="662" cy="348" r="2"/>
+    <circle cx="112" cy="404" r="2"/>
+  </g>
+</svg>
